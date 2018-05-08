@@ -230,6 +230,8 @@ hr{
   }
   .text{
     width: 90%;
+    line-height: 1.6;
+    margin-top: 75px;
   }
   #a, #b, #c, #d{
     height: 35vh;
