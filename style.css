@@ -163,6 +163,7 @@ hr{
   #a, #b{
     height: 50vh;
     background-attachment: scroll;
+    margin-top: 55px;
   }
   hr{
     opacity: 0;
