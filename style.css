@@ -53,6 +53,6 @@ img{
     line-height: 1.6;
   }
   ul li a{
-    padding: 0 auto;
+    padding: 0 10px;
   }
 }
