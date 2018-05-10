@@ -47,3 +47,11 @@ img{
   margin: 25px 0;
   width: 100%;
 }
+@media screen and (max-width: 400px){
+  .text{
+    width: 90%;
+  }
+  ul li a{
+    padding: 0 5px;
+  }
+}
