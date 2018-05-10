@@ -43,7 +43,7 @@ span{
   text-align: justify;
 }
 img{
-  margin: 25px 0;
+  margin: 25px auto;
   width: 100%;
 }
 @media screen and (max-width: 768px){
