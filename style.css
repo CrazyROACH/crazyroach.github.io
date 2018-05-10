@@ -8,6 +8,7 @@ ul{
   background: #f4c54f;
   height: 50px;
   position: sticky;
+  top: 0;
   list-style: none;
   margin-bottom: 45px;
 }
