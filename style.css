@@ -66,6 +66,7 @@ img{
     position: static;
     margin-bottom: 15px;
     margin: 0;
+    -webkit-padding-start: 0px;
   }
   ul li{
     display: block;
