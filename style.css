@@ -13,7 +13,8 @@ ul{
   margin-bottom: 45px;
 }
 ul li{
-  float: left;
+  display: table-cell;
+  float: none;
 }
 ul li a{
   line-height: 50px;
@@ -31,10 +32,14 @@ ul li a:hover{
 }
 span{
   color: #f4c54f;
+  font-size: 22px;
+}
+h1{
+  text-align: left;
 }
 .text{
   font-size: 16px;
-  width: 60%;
+  width: 70%;
   color: #fff;
   font-family: roboto;
   font-weight: 100;
@@ -43,18 +48,35 @@ span{
   text-align: justify;
 }
 img{
-  margin: 25px auto;
-  width: 100%;
+  float: left;
+  margin: 10px 20px 0 0;
+  display: block;
+  width: 50%;
 }
 @media screen and (max-width: 768px){
   .text{
     width: 90%;
     line-height: 1.6;
   }
+  img{
+    width: 100%;
+  }
   ul{
+    height: 140px;
+    position: static;
     margin-bottom: 15px;
   }
+  ul li{
+    display: block;
+    margin-left: -9%;
+    border-bottom: solid 1px #fff;
+  }
+  ul li:last-child{
+    border-bottom: none;
+  }
   ul li a{
-    padding: 0 20px;
+    display: block;
+    line-height: 34px;
+    height: 34px;
   }
 }
