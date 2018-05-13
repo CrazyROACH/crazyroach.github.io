@@ -65,10 +65,10 @@ img{
     height: 140px;
     position: static;
     margin-bottom: 15px;
+    margin: 0;
   }
   ul li{
     display: block;
-    margin-left: -9%;
     border-bottom: solid 1px #fff;
   }
   ul li:last-child{
