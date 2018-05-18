@@ -29,4 +29,7 @@ span{
     width: 90%;
     line-height: 1.6;
   }
+  .logo{
+    display: none;
+  }
 }
