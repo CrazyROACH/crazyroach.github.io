@@ -24,9 +24,11 @@ span{
   margin: auto;
   line-height: 2.0;
   text-align: justify;
+  margin-bottom: 25px;
 }
 @media screen and (max-width: 768px){
   .text{
+    margin-top: 15px;
     width: 90%;
     line-height: 1.6;
   }
