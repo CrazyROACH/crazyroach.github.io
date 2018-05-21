@@ -27,6 +27,9 @@ nav ul li a{
   line-height: 50px;
   font-size: 24px;
 }
+.active{
+  color: #75d6c3;
+}
 @media screen and (max-width: 480px){
   nav{
     bottom: 0;
