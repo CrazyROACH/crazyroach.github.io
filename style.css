@@ -38,4 +38,7 @@ nav ul li a{
   .active{
     color: #75d6c3;
   }
+  .text{
+  width: 90%;
+  }
 }
