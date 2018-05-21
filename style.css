@@ -26,6 +26,9 @@ nav ul li a{
   line-height: 50px;
   font-size: 24px;
 }
+.active{
+    color: #75d6c3;
+}
 .text{
   width: 60%;
   text-align: justify;
@@ -40,9 +43,6 @@ nav ul li a{
   }
   nav ul li a{
     color: #c0c0c0;
-  }
-  .active{
-    color: #75d6c3;
   }
   .text{
   width: 90%;
