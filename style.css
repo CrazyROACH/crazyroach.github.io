@@ -1,38 +1,34 @@
 body{
   margin: 0;
   padding: 0;
-  background: #18191d;
-}
-.logo{
-  height: 100vh;
-  width: 100%;
-  background-image: url(Elon1.jpg);
-  background-size: cover;
-  margin-bottom: 45px;
-}
-span{
-  color: #f4c54f;
-  font-size: 22px;
-  text-align: left;
-}
-.text{
-  font-size: 16px;
-  width: 70%;
-  color: #fff;
   font-family: roboto;
   font-weight: 100;
-  margin: auto;
-  line-height: 2.0;
-  text-align: justify;
-  margin-bottom: 25px;
 }
-@media screen and (max-width: 768px){
-  .text{
-    margin-top: 15px;
-    width: 90%;
-    line-height: 1.6;
-  }
-  .logo{
-    display: none;
+nav{
+  background: #18191d;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+}
+nav ul{
+  position: relative;
+  left: 30%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul li{
+  float: left;
+}
+nav ul li a{
+  padding: 0 30px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 50px;
+  font-size: 24px;
+}
+@media screen and (max-width: 480px){
+  nav{
+    bottom: 0;
   }
 }
