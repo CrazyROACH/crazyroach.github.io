@@ -1,52 +1,36 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: roboto;
-  font-weight: 300;
+  font-family: Raleway;
+  font-weight: 600;
+  width: 100%;
+  background: #20313A;
 }
 nav{
-  background: #18191d;
   width: 100%;
-  height: 50px;
-  position: fix;
-}
-nav ul{
-  position: relative;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-nav ul li{
-  float: left;
-}
-nav ul li a{
-  padding: 0 30px;
+  height: 60px;
+  background: #13242D;
+  position: fixed;
+  top: 0;
   color: #fff;
-  text-decoration: none;
-  line-height: 50px;
   font-size: 24px;
+  text-align: center;
+  line-height: 60px;
 }
-.active{
-    color: #75d6c3;
+span{
+  color: #1BEBA0;
+}
+.img{
+  background: url(Толя.jpg) no-repeat center center;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  overflow: auto;
+  margin-bottom: 25px;
 }
 .text{
-  width: 60%;
+  color: #fff;
+  width: 50%;
+  margin: auto;
   text-align: justify;
-  margin: 15px auto;
-}
-@media screen and (max-width: 360px){
-  nav{
-    background: #fff;
-    position: fixed;
-    bottom: 0;
-    box-shadow: 0px -0.5px 0.5px 0.5px rgba(0,0,0,0.25);
-  }
-  nav ul li a{
-    padding: 0 20px;
-    color: #c0c0c0;
-  }
-  .text{
-  width: 90%;
-  margin-bottom: 55px;
-  }
 }
