@@ -66,10 +66,13 @@ header nav ul li a.active{
     background-attachment: scroll;
   }
 	header nav{
-    padding: 5px 10px;
+    padding: 5px 5px;
+  }
+  header nav ul{
+    float: none;
   }
   header nav ul li a{
-    padding: 5px 5px;
+    padding: 5px 6px;
   }
   .oll .text{
     width: 95%;
