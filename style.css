@@ -65,6 +65,12 @@ header nav ul li a.active{
   header .back{
     background-attachment: scroll;
   }
+	header nav{
+    padding: 5px 10px;
+  }
+  header nav ul li a{
+    padding: 5px 5px;
+  }
   .oll .text{
     width: 95%;
     text-align: justify;
