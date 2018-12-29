@@ -56,7 +56,7 @@ header nav ul li a.active{
 }
 ::-webkit-scrollbar{
   width: 8px;
-  background: #151515;
+  background: #18191d;
 }
 ::-webkit-scrollbar-thumb{
   background: #1beba0;
