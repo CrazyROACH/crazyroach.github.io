@@ -7,7 +7,6 @@ body{
 }
 header .back{
   background-image: url('i1.jpg');
-  opacity: .5;
   min-height: 100vh;
   position: relative;
   background-position: center;
