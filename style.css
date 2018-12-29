@@ -55,7 +55,7 @@ header nav ul li a.active{
   font-weight: 400;
 }
 ::-webkit-scrollbar{
-  width: 50px;
+  width: 10px;
   background: #18191d;
 }
 ::-webkit-scrollbar-thumb{
