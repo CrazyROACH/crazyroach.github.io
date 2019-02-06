@@ -56,7 +56,7 @@ header nav ul li a{
 ::-webkit-scrollbar-thumb{
   background: #1beba0;
 }
-@media(max-width: 568px){
+media(max-width: 568px){
   header .back{
     background-attachment: scroll;
   }
