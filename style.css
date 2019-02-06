@@ -41,14 +41,13 @@ header nav ul li a{
   color: #fff;
   width: 100%;
   text-align: center;
-	font-size: 50px;
+  font-size: 50px;
 }
 .oll .text{
   margin: auto;
   color: #fff;
   text-align: justify;
   width: 50%;
-  font-weight: 400;
 }
 ::-webkit-scrollbar{
   width: 10px;
