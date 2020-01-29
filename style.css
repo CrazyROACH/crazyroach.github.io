@@ -1,76 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
 body{
-  margin: 0;
-  padding: 0;
-  background: #18191d;
-  line-height: 1.8em;
-  font-family: Open sans;
+    background-color: black;
+    font-family: 'Segoe UI';
+    height: 100%;
 }
-header .back{
-  background-image: url('i1.jpg');
-  min-height: 100vh;
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+
+h1{
+    color: #1E7E7E;
+    font-weight: 900;
+    font-size: 3.8vw;
+    margin: 5vw 0 0 5vw;
 }
-header nav{
-  padding: 10px 100px;
+
+.menu{
+    margin-top: 6vw;
 }
-header nav ul{
-  list style: none;
-  float: right;
-  margin: 0;
-  padding: 0;
-  display: flex
+
+h2{
+    font-weight: 300;
+    font-size: 2vw;
+    margin: 2vw 0 0 5vw;
+    letter-spacing: 7px;
 }
-header nav ul li{
-  list-style: none;
+
+a{
+    color: #fff;
+    text-decoration: none;
 }
-header nav ul li a{
-  color: #151515;
-  line-height: 60px;
-  padding: 15px 30px;
-  text-decoration: none;
-  text-transform: uppercase;
+
+a:hover{
+    font-weight: 600;
+    font-size: 2.5vw;
+    
 }
-.oll{
-  margin: 50px auto;
+
+.logo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
 }
-.oll h2{
-  color: #fff;
-  width: 100%;
-  text-align: center;
-  font-size: 40px;
+
+img{
+    height: 100%;
 }
-.oll .text{
-  margin: auto;
-  color: #fff;
-  text-align: justify;
-  width: 60%;
+
+.text{
+    position: absolute;
+    top: 100%;
+    background-color: #1E7E7E;
+    width: 100%;
+    height: 51vw;
 }
-::-webkit-scrollbar{
-  width: 10px;
-  background: #18191d;
+
+.txt{
+    margin: 10vw auto;
+    width: 50%;
 }
-::-webkit-scrollbar-thumb{
-  background: #1beba0;
-}
-@media(max-width: 568px){
-  header .back{
-    background-attachment: scroll;
-  }
-	header nav{
-    padding: 5px 6px;
-  }
-  header nav ul{
-    float: none;
-  }
-  header nav ul li a{
-    padding: 5px 11px;
-  }
-  .oll .text{
-    width: 95%;
+
+h3{
+    font-weight: 300;
+    font-size: 1.4vw;
+    color: #fff;
     text-align: justify;
-  }
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #1E7E7E;
 }
